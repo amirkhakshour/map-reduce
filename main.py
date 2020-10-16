@@ -4,6 +4,7 @@ import json
 
 MAPPING_FILE_PATH = './data/mappings.csv'
 PRICE_CATALOG_FILE_PATH = './data/price_catalog.csv'
+OUTPUT_FILE = './output.json'
 mapping = namedtuple('Mapping', ['destination_type', 'destination'])
 
 
@@ -99,6 +100,9 @@ def group_products(products):
             brand_branch[product['article_number']]['default_values'] = product
         else:
             # add new variation
+            """
+            first find 
+            """
             diff_set = dict()
             default_values = dict(brand_branch[product['article_number']][
                                       'default_values'].items())
@@ -107,7 +111,8 @@ def group_products(products):
                     # remove variation from default values and add as varition
                     diff_set[k] = v
                     del \
-                    brand_branch[product['article_number']]['default_values'][k]
+                        brand_branch[product['article_number']][
+                            'default_values'][k]
             if diff_set:
                 variations = brand_branch[product['article_number']][
                     'variations']
@@ -120,7 +125,8 @@ def main():
     rules_graph = get_rules_graph()
     products = convert_price_cat(rules_graph)
     catalog = group_products(products)
-    return json.dumps(catalog)
+    with open(OUTPUT_FILE, 'w') as f:
+        f.write(json.dumps(catalog))
 
 
 if __name__ == '__main__':
