@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="20">
+            <item index="0" class="java.lang.String" itemvalue="coverage" />
+            <item index="1" class="java.lang.String" itemvalue="sqlalchemy_utils" />
+            <item index="2" class="java.lang.String" itemvalue="python-docx" />
+            <item index="3" class="java.lang.String" itemvalue="faiss-cpu" />
+            <item index="4" class="java.lang.String" itemvalue="langdetect" />
+            <item index="5" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="6" class="java.lang.String" itemvalue="sklearn" />
+            <item index="7" class="java.lang.String" itemvalue="python-multipart" />
+            <item index="8" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="9" class="java.lang.String" itemvalue="httptools" />
+            <item index="10" class="java.lang.String" itemvalue="pandas" />
+            <item index="11" class="java.lang.String" itemvalue="fastapi" />
+            <item index="12" class="java.lang.String" itemvalue="elastic-apm" />
+            <item index="13" class="java.lang.String" itemvalue="elasticsearch" />
+            <item index="14" class="java.lang.String" itemvalue="farm" />
+            <item index="15" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="16" class="java.lang.String" itemvalue="tox" />
+            <item index="17" class="java.lang.String" itemvalue="tika" />
+            <item index="18" class="java.lang.String" itemvalue="uvloop" />
+            <item index="19" class="java.lang.String" itemvalue="pymilvus" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
