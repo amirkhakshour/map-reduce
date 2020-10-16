@@ -101,7 +101,11 @@ def group_products(products):
         else:
             # add new variation
             """
-            first find 
+            1- first find the diff with default values
+            2- if we find a diff then find a variation buy diffing with 
+            variations
+            3- add new variation if the diff_set doesn't belong to any 
+            variation.
             """
             diff_set = dict()
             default_values = dict(brand_branch[product['article_number']][
