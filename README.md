@@ -1,8 +1,29 @@
 # Mapper and grouper
-how to run:
+A nice example of mapping and aggregating list of entities using pure python.
+- mapping rule input format:
+```csv
+source;destination;source_type;destination_type
+winter;Winter;season;season
+summer;Summer;season;season
+```
+The mapping can go match even by deepest degree of attribute set
+- mapping rule output tree:
+```python
+{
+    "season": {
+        "winter": {"_mapping": mapping("season", "Winter")},
+        "summer": {"_mapping": mapping("season", "Summer")},
+    }
+}
+```
+
+## how to run:
 ```bash
 python main.py
 ```
-
-some notes:
-- grouping doesn't work as expected but the mapper works even with edge cases.
+## how to run tests:
+```bash
+poetry shell
+poetry install
+pytest tests/ -v
+```

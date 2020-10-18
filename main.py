@@ -1,6 +1,10 @@
-from collections import namedtuple
 import csv
 import json
+
+from collections import namedtuple
+from mapper import build_rule_tree, find_product_rule_mapping
+from grouper import group_products
+
 
 MAPPING_FILE_PATH = './data/mappings.csv'
 PRICE_CATALOG_FILE_PATH = './data/price_catalog.csv'
@@ -8,127 +12,51 @@ OUTPUT_FILE = './output.json'
 mapping = namedtuple('Mapping', ['destination_type', 'destination'])
 
 
-def append_rule_graph(rules, _graph, target_mapping=None):
-    current_rule = rules[0]
-    key = current_rule[0]
-    val = current_rule[1]
-    _graph.setdefault(key, dict())
-    _graph[key].setdefault(val, dict())
-    if '_mapping' not in _graph[key][val]:
-        _graph[key][val]['_mapping'] = target_mapping
-
-    if len(rules[1:]):
-        _graph[key][val]['_has_child'] = True
-        append_rule_graph(rules[1:], _graph[key][val],
-                          target_mapping)
-
-
-def get_rules_graph():
-    rules = dict()
-    graph = dict()
-    with open(MAPPING_FILE_PATH) as f:
+def get_rules_tree(source_csv_path):
+    """
+    Read mapping rule set from CSV file and returns rule tree.
+    :return:
+    """
+    tree = dict()
+    with open(source_csv_path) as f:
         f_csv = csv.DictReader(f, delimiter=';')
         for row in f_csv:
-            source_types = row['source_type'].split('|')
-            sources = row['source'].split('|')
-            d = tuple(zip(source_types, sources))
-            target_mapping = mapping(row['destination_type'],
-                                     row['destination'])
-            append_rule_graph(d, graph, target_mapping)
-            rules[d] = mapping(row['destination_type'],
-                               row['destination'])
-    return graph
+            build_rule_tree(row, tree)
+    return tree
 
 
-def find_product_rule_mapping(product, rule_branch, default_mapping):
-    cols = [col for col in rule_branch.keys() if not col.startswith('_')]
-    if not cols or '_has_child' not in rule_branch:
-        return default_mapping
-    for col_name in cols:
-        _rule_branch = rule_branch[col_name]
-        product_val = product[col_name]
-        if product_val in _rule_branch:
-            _parent_mapping = _rule_branch[product_val].get('_mapping') \
-                              or default_mapping
-            mapping = find_product_rule_mapping(
-                product,
-                _rule_branch,
-                _parent_mapping
-            )
-            if mapping:
-                return mapping
-
-
-def convert_price_cat(rules_graph):
-    with open(PRICE_CATALOG_FILE_PATH) as f:
-        f_csv = csv.DictReader(f, delimiter=';')
-        for product in f_csv:
-            for col_name, rule in rules_graph.items():
-                if product[col_name] in rule:
-                    parent_mapping = rule[product[col_name]].get(
-                        '_mapping',
-                        None
-                    )
-                    _rule = rule[product[col_name]]
-                    mapping = find_product_rule_mapping(
-                        product,
-                        rule[product[col_name]],
-                        parent_mapping
-                    )
-
-                    if mapping:
-                        del product[col_name]
-                        product[
-                            mapping.destination_type] = mapping.destination
-            yield product
-
-
-def group_products(products):
-    catalog = dict()
+def gen_converted_products(products: iter, rules_tree: dict):
+    """
+    Converts product list using rule tree.
+    :param products: generator list of products in dict format
+    :param rules_tree:
+    :return:
+    """
     for product in products:
-        catalog.setdefault(
-            product['brand'], dict()
-        )
-        brand_branch = catalog[product['brand']]
-        brand_branch.setdefault(
-            product['article_number'], dict(
-                article_number=product['article_number'],
-                variations=list(),
+        for col_name, rule in rules_tree.items():
+            target_mapping = find_product_rule_mapping(
+                product, col_name, rule
             )
-        )
-        if 'default_values' not in brand_branch[product['article_number']]:
-            brand_branch[product['article_number']]['default_values'] = product
-        else:
-            # add new variation
-            """
-            1- first find the diff with default values
-            2- if we find a diff then find a variation buy diffing with 
-            variations
-            3- add new variation if the diff_set doesn't belong to any 
-            variation.
-            """
-            diff_set = dict()
-            default_values = dict(brand_branch[product['article_number']][
-                                      'default_values'].items())
-            for k, v in default_values.items():
-                if product[k] != v:
-                    # remove variation from default values and add as varition
-                    diff_set[k] = v
-                    del \
-                        brand_branch[product['article_number']][
-                            'default_values'][k]
-            if diff_set:
-                variations = brand_branch[product['article_number']][
-                    'variations']
-                variations.append(diff_set)
+            if target_mapping:
+                del product[col_name]
+                product[
+                    target_mapping.destination_type
+                ] = target_mapping.destination
+        yield product
 
-    return catalog
+
+def gen_price_cat_opener(source_file):
+    with open(source_file) as f:
+        f_csv = csv.DictReader(f, delimiter=';')
+        for product_dict in f_csv:
+            yield product_dict
 
 
 def main():
-    rules_graph = get_rules_graph()
-    products = convert_price_cat(rules_graph)
-    catalog = group_products(products)
+    rules_tree = get_rules_tree(MAPPING_FILE_PATH)
+    products = gen_price_cat_opener(PRICE_CATALOG_FILE_PATH)
+    converted_products = gen_converted_products(products, rules_tree)
+    catalog = group_products(converted_products)
     with open(OUTPUT_FILE, 'w') as f:
         f.write(json.dumps(catalog))
 
