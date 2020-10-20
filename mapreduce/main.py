@@ -4,8 +4,8 @@ import json
 import argparse
 
 from collections import namedtuple
-from mapper import build_rule_tree, find_product_rule_mapping
-from grouper import group_products
+from mapreduce.mapper import build_rule_tree, find_product_rule_mapping
+from mapreduce.grouper import group_products
 
 MAPPING_FILE_PATH = './data/mappings.csv'
 PRICE_CATALOG_FILE_PATH = './data/price_catalog.csv'

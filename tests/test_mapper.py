@@ -1,7 +1,7 @@
 import pytest
 
-from main import mapping
-from mapper import build_rule_tree
+from mapreduce.main import mapping
+from mapreduce.mapper import build_rule_tree
 
 _RULE_MAPPING_FLAT = """source;destination;source_type;destination_type
 winter;Winter;season;season
