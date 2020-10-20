@@ -51,14 +51,18 @@ def build_rule_tree(rule_item: dict, tree: dict):
         tree = tree[col_name][col_val]
 
 
-def find_product_rule_mapping(product, rule_name, rule_tree):
-    parent_mapping = None
-    while True:
-        if product[rule_name] not in rule_tree or not rule_tree:
-            return parent_mapping
-        next_child = product[rule_name]
-        parent_mapping = rule_tree[next_child].get(
-            '_mapping',
-            None
-        )
-        rule_tree = rule_tree[next_child]
+def find_product_rule_mapping(product, rule_name, rule_tree,
+                              parent_mapping=None):
+    next_rule_val = product[rule_name]
+    branch = rule_tree[next_rule_val]
+    if '_mapping' in branch:
+        parent_mapping = branch['_mapping']
+    child_rule_attrs = [_col for _col in branch if not _col.startswith('_')]
+    if not child_rule_attrs:
+        return parent_mapping
+    for attr in child_rule_attrs:
+        mapping = find_product_rule_mapping(product, attr, branch[attr],
+                                            parent_mapping)
+        # return the first matched mapping
+        if mapping:
+            return mapping
