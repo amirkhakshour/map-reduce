@@ -29,5 +29,5 @@ python -m mapreduce --output_file=WHERE_TO_WRITE_OUTPUT_STREAM
 ```bash
 poetry shell
 poetry install
-pytest tests/ -v
+pytest -v
 ```
