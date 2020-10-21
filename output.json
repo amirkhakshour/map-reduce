@@ -1,1 +1,581 @@
-{"Via Vai": {"_default_attrs": {"supplier": "Rupesco BV", "brand": "Via Vai", "catalog_code": "", "currency": "EUR", "price_buy_gross": "", "discount_rate": "", "target_area": "Woman Shoes", "season": "Winter", "collection": "Winter Collection 2017/2018"}, "15189-02": {"article_number": "15189-02", "variations": [{"ean": "8719245200978", "size_code": "38", "size_name": "38", "size": "European size 38", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245200985", "size_code": "39", "size_name": "39", "size": "European size 39", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245200954", "size_code": "36", "size_name": "36", "size": "European size 36", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245200992", "size_code": "40", "size_name": "40", "size": "European size 40", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245200961", "size_code": "37", "size_name": "37", "size": "European size 37", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245201012", "size_code": "42", "size_name": "42", "size": "European size 42", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245201005", "size_code": "41", "size_name": "41", "size": "European size 41", "article_number_2": "15189-02 Aviation Nero", "article_number_3": "Aviation", "price_buy_net": "58.5", "price_sell": "139.95", "material": "Aviation", "color": "Nero"}, {"ean": "8719245231637", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "40", "size_name": "40", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 40", "color": "Bosco Nero"}, {"ean": "8719245231606", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "37", "size_name": "37", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 37", "color": "Bosco Nero"}, {"ean": "8719245231590", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "36", "size_name": "36", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 36", "color": "Bosco Nero"}, {"ean": "8719245231613", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "38", "size_name": "38", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 38", "color": "Bosco Nero"}, {"ean": "8719245231620", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "39", "size_name": "39", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 39", "color": "Bosco Nero"}, {"ean": "8719245231644", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "41", "size_name": "41", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 41", "color": "Bosco Nero"}, {"ean": "8719245231651", "article_number_2": "15189-02 Mojito Bosco Nero", "article_number_3": "Mojito", "size_code": "42", "size_name": "42", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 42", "color": "Bosco Nero"}, {"ean": "8719245231682", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "37", "size_name": "37", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 37", "color": "Brandy Nero"}, {"ean": "8719245231675", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "36", "size_name": "36", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 36", "color": "Brandy Nero"}, {"ean": "8719245231699", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "38", "size_name": "38", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 38", "color": "Brandy Nero"}, {"ean": "8719245231729", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "41", "size_name": "41", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 41", "color": "Brandy Nero"}, {"ean": "8719245231736", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "42", "size_name": "42", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 42", "color": "Brandy Nero"}, {"ean": "8719245231705", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "39", "size_name": "39", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 39", "color": "Brandy Nero"}, {"ean": "8719245231712", "article_number_2": "15189-02 Mojito Brandy Nero", "article_number_3": "Mojito", "size_code": "40", "size_name": "40", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 40", "color": "Brandy Nero"}, {"ean": "8719245231798", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "40", "size_name": "40", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 40", "color": "Indaco Nero"}, {"ean": "8719245231811", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "42", "size_name": "42", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 42", "color": "Indaco Nero"}, {"ean": "8719245231767", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "37", "size_name": "37", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 37", "color": "Indaco Nero"}, {"ean": "8719245231750", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "36", "size_name": "36", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 36", "color": "Indaco Nero"}, {"ean": "8719245231774", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "38", "size_name": "38", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 38", "color": "Indaco Nero"}, {"ean": "8719245231781", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "39", "size_name": "39", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 39", "color": "Indaco Nero"}, {"ean": "8719245231804", "article_number_2": "15189-02 Mojito Indaco Nero", "article_number_3": "Mojito", "size_code": "41", "size_name": "41", "price_buy_net": "62.5", "price_sell": "149.95", "material": "Mojito", "size": "European size 41", "color": "Indaco Nero"}], "_default_attrs": {"article_number": "15189-02", "article_structure": "Pump"}}, "4701013-00": {"article_number": "4701013-00", "variations": [{"ean": "8719245192327", "size_code": "39", "size_name": "39", "size": "European size 39", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245192303", "size_code": "37", "size_name": "37", "size": "European size 37", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245192334", "size_code": "40", "size_name": "40", "size": "European size 40", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245192341", "size_code": "41", "size_name": "41", "size": "European size 41", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245192358", "size_code": "42", "size_name": "42", "size": "European size 42", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245192310", "size_code": "38", "size_name": "38", "size": "European size 38", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245192297", "size_code": "36", "size_name": "36", "size": "European size 36", "article_number_2": "4701013-00 Caipirinha Nero", "article_number_3": "Caipirinha", "material": "Caipirinha", "color": "Nero"}, {"ean": "8719245210182", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "36", "size_name": "36", "material": "Joker", "size": "European size 36", "color": "Fucile"}, {"ean": "8719245210212", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "39", "size_name": "39", "material": "Joker", "size": "European size 39", "color": "Fucile"}, {"ean": "8719245210243", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "42", "size_name": "42", "material": "Joker", "size": "European size 42", "color": "Fucile"}, {"ean": "8719245210199", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "37", "size_name": "37", "material": "Joker", "size": "European size 37", "color": "Fucile"}, {"ean": "8719245210236", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "41", "size_name": "41", "material": "Joker", "size": "European size 41", "color": "Fucile"}, {"ean": "8719245210205", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "38", "size_name": "38", "material": "Joker", "size": "European size 38", "color": "Fucile"}, {"ean": "8719245210229", "article_number_2": "4701013-00 Joker Fucile", "article_number_3": "Joker", "size_code": "40", "size_name": "40", "material": "Joker", "size": "European size 40", "color": "Fucile"}, {"ean": "8719245210311", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "41", "size_name": "41", "material": "Joker", "size": "European size 41", "color": "Marrone"}, {"ean": "8719245210267", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "36", "size_name": "36", "material": "Joker", "size": "European size 36", "color": "Marrone"}, {"ean": "8719245210274", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "37", "size_name": "37", "material": "Joker", "size": "European size 37", "color": "Marrone"}, {"ean": "8719245210281", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "38", "size_name": "38", "material": "Joker", "size": "European size 38", "color": "Marrone"}, {"ean": "8719245210328", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "42", "size_name": "42", "material": "Joker", "size": "European size 42", "color": "Marrone"}, {"ean": "8719245210298", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "39", "size_name": "39", "material": "Joker", "size": "European size 39", "color": "Marrone"}, {"ean": "8719245210304", "article_number_2": "4701013-00 Joker Marrone", "article_number_3": "Joker", "size_code": "40", "size_name": "40", "material": "Joker", "size": "European size 40", "color": "Marrone"}], "_default_attrs": {"article_number": "4701013-00", "price_buy_net": "71.0", "price_sell": "169.95", "article_structure": "Boot"}}}}
+{
+  "Via Vai": {
+    "_default_attrs": {
+      "supplier": "Rupesco BV",
+      "brand": "Via Vai",
+      "catalog_code": "",
+      "currency": "EUR",
+      "price_buy_gross": "",
+      "discount_rate": "",
+      "target_area": "Woman Shoes",
+      "season": "Winter",
+      "collection": "Winter Collection 2017/2018"
+    },
+    "15189-02": {
+      "article_number": "15189-02",
+      "variations": [
+        {
+          "ean": "8719245200978",
+          "size_code": "38",
+          "size_name": "38",
+          "size": "European size 38",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245200985",
+          "size_code": "39",
+          "size_name": "39",
+          "size": "European size 39",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245200954",
+          "size_code": "36",
+          "size_name": "36",
+          "size": "European size 36",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245200992",
+          "size_code": "40",
+          "size_name": "40",
+          "size": "European size 40",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245200961",
+          "size_code": "37",
+          "size_name": "37",
+          "size": "European size 37",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245201012",
+          "size_code": "42",
+          "size_name": "42",
+          "size": "European size 42",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245201005",
+          "size_code": "41",
+          "size_name": "41",
+          "size": "European size 41",
+          "article_number_2": "15189-02 Aviation Nero",
+          "article_number_3": "Aviation",
+          "price_buy_net": "58.5",
+          "price_sell": "139.95",
+          "material": "Aviation",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245231637",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "40",
+          "size_name": "40",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 40",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231606",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "37",
+          "size_name": "37",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 37",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231590",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "36",
+          "size_name": "36",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 36",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231613",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "38",
+          "size_name": "38",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 38",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231620",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "39",
+          "size_name": "39",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 39",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231644",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "41",
+          "size_name": "41",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 41",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231651",
+          "article_number_2": "15189-02 Mojito Bosco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "42",
+          "size_name": "42",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 42",
+          "color": "Bosco Nero"
+        },
+        {
+          "ean": "8719245231682",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "37",
+          "size_name": "37",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 37",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231675",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "36",
+          "size_name": "36",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 36",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231699",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "38",
+          "size_name": "38",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 38",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231729",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "41",
+          "size_name": "41",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 41",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231736",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "42",
+          "size_name": "42",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 42",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231705",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "39",
+          "size_name": "39",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 39",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231712",
+          "article_number_2": "15189-02 Mojito Brandy Nero",
+          "article_number_3": "Mojito",
+          "size_code": "40",
+          "size_name": "40",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 40",
+          "color": "Brandy Nero"
+        },
+        {
+          "ean": "8719245231798",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "40",
+          "size_name": "40",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 40",
+          "color": "Indaco Nero"
+        },
+        {
+          "ean": "8719245231811",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "42",
+          "size_name": "42",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 42",
+          "color": "Indaco Nero"
+        },
+        {
+          "ean": "8719245231767",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "37",
+          "size_name": "37",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 37",
+          "color": "Indaco Nero"
+        },
+        {
+          "ean": "8719245231750",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "36",
+          "size_name": "36",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 36",
+          "color": "Indaco Nero"
+        },
+        {
+          "ean": "8719245231774",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "38",
+          "size_name": "38",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 38",
+          "color": "Indaco Nero"
+        },
+        {
+          "ean": "8719245231781",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "39",
+          "size_name": "39",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 39",
+          "color": "Indaco Nero"
+        },
+        {
+          "ean": "8719245231804",
+          "article_number_2": "15189-02 Mojito Indaco Nero",
+          "article_number_3": "Mojito",
+          "size_code": "41",
+          "size_name": "41",
+          "price_buy_net": "62.5",
+          "price_sell": "149.95",
+          "material": "Mojito",
+          "size": "European size 41",
+          "color": "Indaco Nero"
+        }
+      ],
+      "_default_attrs": {
+        "article_number": "15189-02",
+        "article_structure": "Pump"
+      }
+    },
+    "4701013-00": {
+      "article_number": "4701013-00",
+      "variations": [
+        {
+          "ean": "8719245192327",
+          "size_code": "39",
+          "size_name": "39",
+          "size": "European size 39",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245192303",
+          "size_code": "37",
+          "size_name": "37",
+          "size": "European size 37",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245192334",
+          "size_code": "40",
+          "size_name": "40",
+          "size": "European size 40",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245192341",
+          "size_code": "41",
+          "size_name": "41",
+          "size": "European size 41",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245192358",
+          "size_code": "42",
+          "size_name": "42",
+          "size": "European size 42",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245192310",
+          "size_code": "38",
+          "size_name": "38",
+          "size": "European size 38",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245192297",
+          "size_code": "36",
+          "size_name": "36",
+          "size": "European size 36",
+          "article_number_2": "4701013-00 Caipirinha Nero",
+          "article_number_3": "Caipirinha",
+          "material": "Caipirinha",
+          "color": "Nero"
+        },
+        {
+          "ean": "8719245210182",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "36",
+          "size_name": "36",
+          "material": "Joker",
+          "size": "European size 36",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210212",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "39",
+          "size_name": "39",
+          "material": "Joker",
+          "size": "European size 39",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210243",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "42",
+          "size_name": "42",
+          "material": "Joker",
+          "size": "European size 42",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210199",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "37",
+          "size_name": "37",
+          "material": "Joker",
+          "size": "European size 37",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210236",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "41",
+          "size_name": "41",
+          "material": "Joker",
+          "size": "European size 41",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210205",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "38",
+          "size_name": "38",
+          "material": "Joker",
+          "size": "European size 38",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210229",
+          "article_number_2": "4701013-00 Joker Fucile",
+          "article_number_3": "Joker",
+          "size_code": "40",
+          "size_name": "40",
+          "material": "Joker",
+          "size": "European size 40",
+          "color": "Fucile"
+        },
+        {
+          "ean": "8719245210311",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "41",
+          "size_name": "41",
+          "material": "Joker",
+          "size": "European size 41",
+          "color": "Marrone"
+        },
+        {
+          "ean": "8719245210267",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "36",
+          "size_name": "36",
+          "material": "Joker",
+          "size": "European size 36",
+          "color": "Marrone"
+        },
+        {
+          "ean": "8719245210274",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "37",
+          "size_name": "37",
+          "material": "Joker",
+          "size": "European size 37",
+          "color": "Marrone"
+        },
+        {
+          "ean": "8719245210281",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "38",
+          "size_name": "38",
+          "material": "Joker",
+          "size": "European size 38",
+          "color": "Marrone"
+        },
+        {
+          "ean": "8719245210328",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "42",
+          "size_name": "42",
+          "material": "Joker",
+          "size": "European size 42",
+          "color": "Marrone"
+        },
+        {
+          "ean": "8719245210298",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "39",
+          "size_name": "39",
+          "material": "Joker",
+          "size": "European size 39",
+          "color": "Marrone"
+        },
+        {
+          "ean": "8719245210304",
+          "article_number_2": "4701013-00 Joker Marrone",
+          "article_number_3": "Joker",
+          "size_code": "40",
+          "size_name": "40",
+          "material": "Joker",
+          "size": "European size 40",
+          "color": "Marrone"
+        }
+      ],
+      "_default_attrs": {
+        "article_number": "4701013-00",
+        "price_buy_net": "71.0",
+        "price_sell": "169.95",
+        "article_structure": "Boot"
+      }
+    }
+  }
+}
