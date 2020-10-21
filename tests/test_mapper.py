@@ -1,6 +1,6 @@
 import pytest
 
-from mapreduce.main import mapping
+from mapreduce.config import mapping
 from mapreduce.mapper import build_rule_tree
 
 _RULE_MAPPING_FLAT = """source;destination;source_type;destination_type

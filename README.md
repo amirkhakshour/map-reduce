@@ -19,7 +19,11 @@ The mapping can go match even by deepest degree of attribute set
 
 ## how to run:
 ```bash
-python main.py
+python -m mapreduce
+
+# different output file
+python -m mapreduce --output_file=WHERE_TO_WRITE_OUTPUT_STREAM
+
 ```
 ## how to run tests:
 ```bash
