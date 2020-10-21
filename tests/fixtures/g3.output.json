@@ -1,0 +1,22 @@
+{
+  "BRAND_NO_1": {
+    "_default_attrs": {
+      "brand": "BRAND_NO_1",
+      "article_number": "ARTICLE_NO_1",
+      "VAR_2": "VAL_2",
+      "VAR_3": "VAL_3"
+    },
+    "ARTICLE_NO_1": {
+      "article_number": "ARTICLE_NO_1",
+      "variations": [
+        {
+          "VAR_1": "VAL_1"
+        },
+        {
+          "VAR_1": "VAL_2"
+        }
+      ],
+      "_default_attrs": {}
+    }
+  }
+}

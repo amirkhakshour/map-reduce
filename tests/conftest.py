@@ -1,3 +1,6 @@
+import pathlib
+
+TESTS_ROOT_DIR = pathlib.Path(__file__).parent.absolute()
 
 EXAMPLE_RULE_MAPPING_FLAT = """source;destination;source_type;destination_type
 winter;Winter;season;season

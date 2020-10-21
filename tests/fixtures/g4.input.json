@@ -1,0 +1,16 @@
+[
+  {
+    "brand": "BRAND_NO_1",
+    "article_number": "ARTICLE_NO_1",
+    "VAR_1": "VAL_1",
+    "VAR_2": "VAL_2",
+    "VAR_3": "VAL_3"
+  },
+  {
+    "brand": "BRAND_NO_1",
+    "article_number": "ARTICLE_NO_2",
+    "VAR_1": "VAL_2",
+    "VAR_2": "VAL_2",
+    "VAR_3": "VAL_3"
+  }
+]
